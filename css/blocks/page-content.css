@@ -1,5 +1,11 @@
 .page-content {
-  padding: 0 0 100px;
+  padding: 0 100px 0;
+}
+
+.page-content__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .page-content__title {
@@ -10,9 +16,9 @@
   margin: 0 0 60px 0;
 }
 
-.page-content__item {
+/* .page-content__item {
   display: flex;
   list-style: none;
   flex-direction: row;
   gap: 32px;
-}
+} */

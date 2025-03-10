@@ -1,39 +1,12 @@
-/*
-.cards__item {
-    display: flex;
-    flex-direction: column;
-}
-
-.product_card {
-    background: url("/images/pensioners.jpg") no-repeat;
-    height: 100%;
-    padding: 20px;
-    width: 286px;
-}
-
-.product_card__img_category {
-    height: auto;
-}
-
-.answer_category {
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 16px;
-    height: auto;
-    border-radius: 12px;
-    color: #FFFFFF;   
-}
-*/
-
 .product-card {
     display: flex;
     flex-wrap: wrap;
 }
 
-.product-card__item {
+/* .product-card__item {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .product-card__header {
     display: flex;
@@ -48,6 +21,9 @@
     padding: 20px;
     width: 286px;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .product-card__title {
