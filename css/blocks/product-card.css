@@ -3,23 +3,17 @@
     flex-wrap: wrap;
 }
 
-/* .product-card__item {
-    display: flex;
-    flex-direction: column;
-} */
-
 .product-card__header {
     display: flex;
     gap: 8px;
     align-items: center;
-    margin: 0 0 248px;
+    margin: 0 0 260px;
  }
 
 .product-card .product-card_inner {
     background: url("/images/pensioners.jpg") no-repeat;
     height: 100%;
     padding: 20px;
-    width: 286px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -69,22 +63,34 @@
     background: url("/images/ratings.jpg") no-repeat;
     height: 100%;
     padding: 20px;
-    width: 286px;
+    /* width: 286px; */
     border-radius: 12px;
 }
 
 .product-card_inner--second .product-card__header {
-    margin: 0 0 272px;
+    margin: 0 0 284px;
 }
 
 .product-card_inner--third {
     background: url("/images/gold_ingots.jpg") no-repeat;
     height: 100%;
     padding: 20px;
-    width: 286px;
+    /* width: 286px; */
     border-radius: 12px;
 }
 
 .product-card_inner--third .product-card__header {
-    margin: 0 0 272px;
+    margin: 0 0 284px;
+}
+
+.product-card_inner--fourth {
+    background: url("/images/tax_deduction.jpg") no-repeat;
+    height: 100%;
+    padding: 20px;
+    /* width: 286px; */
+    border-radius: 12px;
+}
+
+.product-card_inner--fourth .product-card__header {
+    margin: 0 0 284px;
 }
