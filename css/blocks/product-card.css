@@ -47,7 +47,7 @@
     line-height: 16px;
 }
 
-.product-card__img-category{
+.product-card__img-category {
     width: 40px;
     height: 40px;
 }
@@ -56,14 +56,14 @@
     display: flex;
     gap: 8px;
     align-items: center;
-    
- }
 
- .product-card__footer {
+}
+
+.product-card__footer {
     display: flex;
     flex-direction: column;
     align-items: end;
- }
+}
 
 .product-card--first {
     background-image: url("../../images/pensioners.jpg");
