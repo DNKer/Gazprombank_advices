@@ -1,24 +1,16 @@
 .product-card {
     display: flex;
-    flex-wrap: wrap;
-}
-
-.product-card__header {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    margin: 0 0 260px;
- }
-
-.product-card .product-card_inner {
-    background: url("/images/pensioners.jpg") no-repeat;
-    background-size: 100%;
+    min-height: 480px;
+    background-color: #476BF0;
     height: 100%;
-    padding: 20px;
+    padding: 20px 20px 32px;
+    align-items: center;
     border-radius: 12px;
-    display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-between;
 }
 
 .product-card__title {
@@ -48,100 +40,61 @@
     padding: 8px 10px;
 }
 
-.product-card__answer_category {
+.product-card__answer-category {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 13px;
     line-height: 16px;
 }
 
-.product-card__img_category{
+.product-card__img-category{
     width: 40px;
     height: 40px;
 }
 
-.product-card .product-card_inner--second {
-    background: url("/images/ratings.jpg") no-repeat;
-    height: 100%;
-    padding: 20px;
-    /* width: 286px; */
-    border-radius: 12px;
-    background-size: 100%;
+.product-card__header {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+ }
+
+ .product-card__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+ }
+
+.product-card--first {
+    background-image: url("../../images/pensioners.jpg");
 }
 
-.product-card_inner--second .product-card__header {
-    margin: 0 0 284px;
+.product-card--second {
+    background-image: url("../../images/ratings.jpg");
 }
 
-.product-card_inner--third {
-    background: url("/images/gold_ingots.jpg") no-repeat;
-    height: 100%;
-    padding: 20px;
-    /* width: 286px; */
-    border-radius: 12px;
-    background-size: 100%;
+.product-card--third {
+    background-image: url("../../images/gold_ingots.jpg");
+
 }
 
-.product-card_inner--third .product-card__header {
-    margin: 0 0 284px;
+.product-card--fourth {
+    background-image: url("../../images/tax_deduction.jpg");
 }
 
-.product-card_inner--fourth {
-    background: url("/images/tax_deduction.jpg") no-repeat;
-    height: 100%;
-    padding: 20px;
-    border-radius: 12px;
-    background-size: 100%;
+.product-card--fifth {
+    background-image: url("../../images/tax_deduction.jpg");
 }
 
-.product-card_inner--fourth .product-card__header {
-    margin: 0 0 284px;
+.product-card--sixth {
+    background-image: url("../../images/dismissal.jpg");
 }
 
-.product-card_inner--fifth {
-    background: url("/images/tax_deduction.jpg") no-repeat;
-    height: 100%;
-    padding: 20px;
-    border-radius: 12px;
-    background-size: 100%;
+.product-card--seventh {
+    background-image: url("../../images/balance.jpg");
 }
 
-.product-card_inner--fifth .product-card__header {
-    margin: 0 0 260px;
-}
 
-.product-card_inner--sixth {
-    background: url("/images/dismissal.jpg") no-repeat;
-    height: 100%;
-    padding: 20px;
-    border-radius: 12px;
-    background-size: 100%;
-}
-
-.product-card_inner--sixth .product-card__header {
-    margin: 0 0 284px;
-}
-
-.product-card_inner--seventh {
-    background: url("/images/balance.jpg") no-repeat;
-    height: 100%;
-    padding: 20px;
-    border-radius: 12px;
-    background-size: 100%;
-}
-
-.product-card_inner--seventh .product-card__header {
-    margin: 0 0 284px;
-}
-
-.product-card_inner--eighth {
-    background: url("/images/credit.jpg") no-repeat;
-    height: 100%;
-    padding: 20px;
-    border-radius: 12px;
-    background-size: 100%;
-}
-
-.product-card_inner--eighth .product-card__header {
-    margin: 0 0 284px;
+.product-card--eighth {
+    background-image: url("../../images/credit.jpg");
 }
