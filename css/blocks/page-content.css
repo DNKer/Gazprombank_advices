@@ -1,16 +1,16 @@
 .page-content {
-  margin: 0;
+  margin: 0;  
 }
 
 .page-content__list {
-  margin: 0 0 100px;
+  margin: 0 100px 100px 100px;
   height: 100%;
   list-style-type: none;
   display: flex;
-  gap: 32px 40px;
-  padding: 0 100px;
+  gap: 40px 32px;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 0;
 }
 
 .page-content__title {
@@ -23,6 +23,5 @@
 }
 
 .page-content__item {
-  width: calc((100% / 4) - (32px * 3));
-  height: 100%;
+  width: calc((100% / 4) - (32px * 3 / 4));
 }
