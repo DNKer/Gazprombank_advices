@@ -3,8 +3,6 @@
 }
 
 .page-content__list {
-  margin: 0 100px 100px 100px;
-  height: 100%;
   list-style-type: none;
   display: flex;
   gap: 40px 32px;
